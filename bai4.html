@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        
+        body {
+          color: rgb(31, 29, 29);
+          font-size: 16px;
+          line-height: 1.5;
+        }
+     
+        header {
+          margin: 30px auto;
+          position: relative;
+          width: 1140px;
+        }
+        header #logo {
+          float: left;
+        }
+        header .navigation {
+          float: left;
+          padding: 15px 0 0 29px;
+        }
+        header .navigation li {
+          display: inline-block;
+          margin-right: 26px;
+        }
+        header .navigation li a {
+          color: black;
+          font-size: 14px;
+          text-decoration: none;
+          transition: 0.3s color;
+        }
+        header .navigation li.active a,
+        header .navigation li a:hover {
+          color: aqua;
+        }
+        header .login {
+          position: absolute;
+          right: 0;
+          top: 4px;
+        }
+        header .login button {
+          background: none;
+          border: 2px solid white;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 14px;
+          padding: 15px 15px 15px;
+          transition: 0.3s border-color;
+        }
+        header .login button:hover {
+          border-color: aqua;
+        }
+      </style>
+      </head>
+      <body>
+        <header class="clearfix">
+          <h1 id="logo"><a href="./"><img src="images/190x50.jpeg" alt=""></a></h1>
+          <nav class="navigation">
+            <ul>
+              <li class="active"><a href="./">Home</a></li>
+              <li><a href="./">Features</a></li>
+              <li><a href="./">Domain</a></li>
+              <li><a href="./">Hosting</a></li>
+              <li><a href="./">Pricing</a></li>
+              <li><a href="./">Testimonials</a></li>
+              <li><a href="./">Contact</a></li>
+            </ul>
+          </nav>
+          <p class="login"><button><i class="fas fa-lock"></i> Customer Login</button></p>
+        </header>
+      </body>
+      </html>

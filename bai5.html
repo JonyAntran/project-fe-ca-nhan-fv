@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+      
+        body {
+          color: #4d4646;
+          font-size: 20px;
+          line-height: 1.8;
+        }
+        
+        input[type="text"],
+        input[type="email"] {
+          height: 40px;
+        }
+        textarea {
+          padding-top: 10px;
+        }
+        button {
+          background-color: #7dcefd;
+          border: 1px solid #59a8d5;
+          border-radius: 4px;
+          color: #fff;
+          cursor: pointer;
+          min-width: 125px;
+          padding: 15px 10px;
+          text-align: center;
+          transition: 0.3s background-color;
+        }
+        .send-message {
+          margin: 30px auto;
+          width: 800px;
+        }
+        .send-message h2 {
+          color: #383838;
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+        .send-message p {
+          margin-bottom: 10px;
+        }
+        .send-message input[type="email"] {
+          float: right;
+        }
+        .send-message textarea {
+          height: 250px;
+        }
+        .half-size {
+          width: 350px;
+        }
+        .full-size {
+          width: 100%;
+        }
+        .send-message.submit {
+          margin-top: 10px;
+        }
+        .send-message .submit span {
+          float: right;
+        }
+      </style>
+      </head>
+      <body>
+        <section class="send-message">
+          <h2>Get in touch with us by filling contact form below</h2>
+          <form method="" action="">
+            <p><input type="text" name="name" placeholder="* Enter your full name" value="" class="half-size"> <input type="email" name="email" placeholder="* Enter your email address" value="" class="half-size"></p>
+            <p><input type="text" name="subject" placeholder="* Enter your subject" value="" class="full-size"></p>
+            <p><textarea name="message" placeholder="* Your message here" cols="50" rows="10" class="full-size"></textarea></p>
+            <p class="submit"><button type="submit">Send message</button><span>* Please fill all require form field, thanks!</span></p>
+          </form>
+        </section>
+      </body>
+      </html>
